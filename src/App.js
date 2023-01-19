@@ -1,10 +1,9 @@
-import TablePage from "./pages/TablePage";
-
+import CounterPage from "./components/CounterPage";
 function App() {
   return (
     <>
       <div>App</div>
-      <TablePage />
+      <CounterPage initialCount={5} />
     </>
   );
 }
